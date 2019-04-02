@@ -1,0 +1,28 @@
+<h1 align="center">Doing branch prediction with JavaScript</h1>
+
+<input id="input" type="file" />
+<!-- <button onclick="printType()">Print type</button>
+<button onclick="printText()">Print text</button>
+<button onclick="fixedTrue()">Fixed true</button>
+<button onclick="static()">Static</button>
+<button onclick="bimodal()">Bimodal</button>
+<button onclick="twoLayer()">2-layer</button> -->
+<div id="t1" align="center" style="visibility:hidden;" >
+    <h2> Original Tracing file</h2>
+    <textarea id="out" cols="50" rows="10" readonly></textarea>
+    <h2> Results of different branch predictors</h2>
+    <textarea id="bp" cols="50" rows="10" readonly></textarea>
+</div>
+<div id="t2" align="center" style="visibility:hidden;">
+    <h2>Fixed True branch predictor log</h2>
+    <textarea id="fixed" cols="50" rows="10" readonly></textarea>
+    <h2> Static-first branch predictor log</h2>
+    <textarea id="staticL" cols="50" rows="10" readonly></textarea>
+</div>
+<div id="t3" align="center" style="visibility:hidden;">
+    <h2>Bimodal predictor branch predictor log</h2>
+    <textarea id="bimodalL" cols="50" rows="10" readonly></textarea>
+    <h2>2-layer bimodal predictor branch predictor log</h2>
+    <textarea id="twolayerL" cols="50" rows="10" readonly></textarea>
+</div>
+<script src="index.js"></script>
